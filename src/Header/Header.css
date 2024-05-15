@@ -10,7 +10,20 @@
 	justify-content: space-around;
 	width: 100%;
 	padding: 10px 0;
-	background-color: rgb(39, 86, 187);
+	background-color: rgb(247, 244, 234);
+}
+
+.logo-h1 {
+	margin: 0;
+	font-family: 'Courier New', Courier, monospace;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+.logo-h1 img {
+	width: 10%;
+	height: 10%;
 }
 
 .signIn-btn {

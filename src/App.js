@@ -1,11 +1,15 @@
 import Header from './Header/Header';
+import Footer from './Footer/Footer';
 import 'normalize.css';
+import './App.css';
 
 function App() {
 	return (
-		<div className='App'>
+		<>
 			<Header />
-		</div>
+			<main className='main'></main>
+			<Footer />
+		</>
 	);
 }
 
